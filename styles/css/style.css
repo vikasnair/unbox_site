@@ -35,7 +35,7 @@ p {
 	font-weight: normal;
 }
 
-#hero {
+.noselect {
 	-webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -46,8 +46,8 @@ p {
 }
 
 .section {
-	width: 60%;
-	height: 60%;
+	width: 80%;
+	height: 80%;
 	margin: 5% auto;
 	text-align: center;
 }
@@ -66,7 +66,7 @@ body {
 	-webkit-font-smoothing: 'antialiased';
 }
 
-/* @media only screen
+@media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2),
@@ -76,17 +76,12 @@ body {
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
 	:root {
-		--primaryFontSize: 48px;
-		--secondaryFontSize: 28px;
-
-		--primaryMargin: 144px;
-		--secondaryMargin: 100px;
-		--tertiaryMargin: 50px;
-
-		--lineHeight: 6rem;
+		--primaryFontSize: 8rem;
+		--secondaryFontSize: 4rem;
+		--tertiaryFontSize: 3rem;
 	}
 
 	.wrap {
 		display: none;
 	}
-} */
+}
